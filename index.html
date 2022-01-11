@@ -1,526 +1,589 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <title>Dharmesh Sonar's  Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
+  <!-- End Google Tag Manager -->
 
-  <!-- Favicons -->
-  <link href="assets/img/logo.png" rel="icon">
-   <!-- add icon link -->
-   <link rel = "icon" href = 
-   "https://cdn.iconscout.com/icon/free/png-64/coding-294-459944.png" 
-           type = "image/x-icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <title>Dharmesh Sonar | Portfolio</title>
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    gtag('config', 'UA-126939217-2');
+   
+  </script>
 
+  <!-- Open Graph-->
+  <meta property="og:locale" content="en_IND" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Dharmesh Sonar | Full Stack web Developer" />
+  <meta property="og:description" content="Software Developer" />
+  <meta property="og:url" content="#" />
+  <meta property="og:site_name" content="Dharmesh Sonar | Full Stack web Developer" />
+  <meta property="article:publisher" content="#" />
+  <meta property="og:image" content="" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@dharmesh_sonar" />
+  <meta name="twitter:title" content="Coder" />
+  <meta name="twitter:description" content="Software Developer" />
+  <meta name="twitter:url" content="https://twitter.com/dharmeshsonar" />
+  <meta name="author" content="Dharmesh Sonar" />
+  <meta name="description" content="Aspiring full stack web Developer with a passion for backend development" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
+  <!-- Google Site Verification for indexing -->
+  <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
 </head>
 
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
+  height="0" width="0" style=""></iframe>
+  </noscript>
+  
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="dharmeshcrop.jpg" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+      <!-- <li>sasds</li> -->
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <!-- <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>  -->
+      <li class="bold">
+        <!--
+        ICONS:
+        mdi-action-assessment
+        mdi-social-poll
+        mdi-av-equalizer
+        -->
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+      
+      <li class="bold">
+        <!-- mdi-av-web small
+             mdi-av-my-library-books small-->
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
 
-      <h1 class="logo"><a href="index.html">< Dharmesh Sonar /></a></h1>
      
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Skills</a></li>
-          <li><a class="nav-link scrollto " href="#work">Projects</a></li>
-          
-         <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-         <li><a class="nav-link scrollto " href="Dharmesh Sonar.pdf" download>Resume<i class="bi bi-arrow-down-circle"></i></a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      <!-- <li class="bold">
+        
+        ICONS:
+        -->
+        <!-- <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li> -->
 
+      <li class="bold">
+        <!-- 
+        1. mdi-communication-contacts
+        2. mdi-content-mail
+        3. mdi-communication-email
+        -->
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        1. mdi-action-description
+        2. mdi-file-folder
+        3. mdi-file-folder-open
+        4. mdi-file-attachment
+        5. mdi-file-folder-shared
+        -->
+        <!-- <a aria-label="Open Varad's resume in a new tab" href="#resume" target="_blank"
+          onclick="window.open('https://drive.google.com/file/d/1vYi-bMyIsZPve0x_clxY8xsDtiHiOMd3/view?usp=sharing')"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a> -->
+        <a aria-label="Open Dharmesh's resume in a new tab" href="Dharmesh Sonar.pdf" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-3">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Dharmesh Sonar</a><span class="black-text">Full-stack web Developer</span>
+      
+           
     </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/giphy.gif)">
     
-    <div class="overlay-itro"></div>
-    <div class="hero-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="hero-title mb-4">I am Dharmesh Sonar</h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items="Full-Stack Web Developer"></span></p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
-        </div>
-      </div>
-    </div>
-  </div><!-- End Hero Section -->
 
-  <main id="main">
+  </nav>
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about-mf sect-pt4 route">
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="">
+          <img src="dharmeshcrop.jpg" class="circle img-responsive profile-pic" alt="avatar" style="margin: 20% 0% 5% 10%;">
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <!-- <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li> -->
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <!-- <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li> -->
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Dharmesh's Resume in a new tab"
+          href="Dharmesh Sonar.pdf" target="_blank" download
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content-->
+  <main id="particles-js">
+    <!-- First Section: Heading lines and image -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-5">
-                      <div class="about-img">
-                        <img src="assets/img/dharmeshcrop.jpg" class="img-fluid rounded b-shadow-a" alt="">
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-7">
-                      <div class="about-info">
-                        <p><span class="title-s">Name: </span> <span>Dharmesh Rajendra Sonar</span></p>
-                        <p><span class="title-s">Profile: </span> <span>full stack Web developer</span></p>
-                        <p><span class="title-s">Email: </span> <span>dsonar333@gmail.com</span></p>
-                        <p><span class="title-s">Phone: </span> <span>+917498984328</span></p>
-                      </div>
-                    
-                    </div>
-                  </div>
-                  <div class="socials">
-                    <ul> <li><a href="https://www.linkedin.com/in/dharmesh-sonar/" target=”_blank”><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
-                      <li><a href="https://github.com/DharmeshRS" target=”_blank”><span class="ico-circle"><i class="bi bi-github"></i></span></a></li>
-                      <li><a href = "mailto: dsonar333@gmail.com" target=”_blank”><span class="ico-circle"><i class="bi bi-envelope"></i></span></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        About me
-                      </h5>
-                    </div>
-                    <p class="lead">
-                      I am passionate about computers since childhood. I always want to know how things work. I love learning new technologies as well as skills.
-                      I have solved more than 200 Data structure and algorithms problems and learnt frontend and backend in Javascript, 
-                      I have had the opportunity to work on several exciting projects using these technologies.
-                      
-                    </p>
-                    <p class="lead">
-                      These experiences not only helped me grow technically but also taught me how to work in a team, manage time properly and effectively.
-                      Now, I am more passionate than ever to take on a new journey where I can challenge myself constantly, and make a mark in the programming world!
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!-- End About Section -->
-   
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services-mf pt-5 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Skills
-              </h3>
-             
-              
-              <div class="line-mf"></div><br>
-              <section id="about" class="about-mf sect-pt route">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="box-shadow-full">
-                        <div class="row">
-                          <div class="col-md-12" style="text-align: center;">
-                            <div class="row">
-                              <div class="col-sm-6 col-md-6">
-                                <div class="about-img">
-                                   <span><h2>Frontend Technologies</h2></span><span><p align="center"> 
-                                    <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
-                                    <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
-                                     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
-                                     <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> 
-                                     <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> 
-                                      
-                                     <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> 
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>
-                                    </p></span>
-                                </div>
-                                <div class="about-img">
-                                  <span><h2>Backend Technologies</h2></span><span><p align="center"> 
-                                     <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> 
-                                   <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
-                                   <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-                                  </p></span>
-                                    
-                                  </div>
-                                
-                              </div>
-                              <div class="col-sm-6 col-md-6">
-                                <!-- <div class="about-info">
-                                  <!-- <p><span class="title-s">Name: </span> <span>Dharmesh Rajendra Sonar</span></p> -->
-                                  <div class="about-img">
-                                    <span><h2>Databases</h2></span>
-                                    <span><p align="center"> 
-                                      <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> 
-                                      </p></span>
-                                 </div>
-                                 <div class="about-img">
-                                  <span><h2>Version Control</h2></span><span><p align="center"> 
-                                    <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
-                                    
-                                    </p></span>
-                               </div>
-                                </div>
-                              </div>
-                            </div>
-                           
-                          </div>
-                          <div class="col-md-6">
-                            <div class="about-me pt-4 pt-md-0">
-                              <div class="title-box-2">
-                              </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <!-- <h2>Hi, I'm <span class="teal">Dharmesh Rajendra Sonar</span></h2> -->
+              <h2>Hi, I'm <span class="">Dharmesh Sonar</span></h2>
+              <h5 style="color:rgb(255, 255, 255)"><span class="typing" style="font-weight: 300; color:#000303"></span></h5>
+              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
+              <h5>Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems.</h5>
        
-      </div>
-    </section><!-- End Services Section -->
+            </div>
+            <div class="social">
+              <a href="http://linkedin.com/in/dharmesh-sonar" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/DharmeshRS/" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+              <!-- <a href="https://github.com/DharmeshRS/" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-envolope"></i>
+                </button>
+              </a> -->
 
-    <!-- ======= Counter Section ======= -->
-    <!-- <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container position-relative">
-        <div class="row">
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-check"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">WORKS COMPLETED</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">YEARS OF EXPERIENCE</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-people"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="550" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">TOTAL CLIENTS</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-award"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">AWARD WON</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- End Counter Section -->
+              <a href="mailto:dsonar333@gmail.com" target="_blank">
+                <button class="icon-btn gmail">
+                  <i class="fa fa-envelope"></i>
+                </button>
+              </a>
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="work" class="portfolio-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Projects
-              </h3>
-              <p class="subtitle-a">
+              <a href="tel:917498984328">
+                <button class="icon-btn phone">
+                  <i class="fa fa-phone"></i>
+                </button>
+              </a>
 
-              </p>
-              <div class="line-mf"></div>
+             
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="https://vigorous-carson-ae67ee.netlify.app/" target=”_blank” data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/kohls.png" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Kohl's Clone</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory"> An E-commerce Website for buying products.</span>
-                      <!-- <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span> -->
-                     <!-- <p class="subtitle-a">
-                          
-                      </p> -->
-                      <p class="subtitle-a"><br>
-                        <span>Tech Stack :</span><stack><a href="#" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
-                          <a href="#" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" style="margin:4%;"/> </a>
-                           <a href="#" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a></stack>
-                    </p>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="https://github.com/DharmeshRS/kohls_Clone" target=”_blank”> <span class="bi bi-github"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="https://happy-albattani-fcfa76.netlify.app/" target=”_blank” data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/coursera.png" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Coursera Clone</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">We Easily Learn new technologies of trending Domains</span>
-                      <p class="subtitle"><br>
-                        <span>Tech Stack :</span><span>
-                         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
-                           <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40" style="margin: 4%;"/> </a> 
-                           <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> 
-                                  
-                          </span>       
-                    </p>
-                    </div>
-                    
-                  </div>
-                  
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="https://github.com/DharmeshRS/Coursera_Clone" target=”_blank”> <span class="bi bi-github"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/work-3.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Mavrito Lana Dere</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/work-4.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Bindo Laro Cado</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
         </div>
       </div>
     </section>
-    <!-- End Portfolio Section -->
+    <br>
+    <!-- Second Section: About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+        <!-- <blockquote>
+          <h2>
+            A Software Developer with a passion for Backend Development and Artificial Intelligence.
 
-    <!-- ======= Testimonials Section ======= -->
+          </h2>
+        </blockquote> -->        
+        <p>
+          I am passionate about computers since childhood. I always want to know how things work. I love learning new technologies as well as skills.
+          I have solved more than 200 Data structure and algorithms problems and learnt frontend and backend in Javascript, I have had the opportunity to work on several exciting projects using these technologies.
+          These experiences not only helped me grow technically but also taught me how to work in a team, manage time properly and effectively.
+          Now, I am more passionate than ever to take on a new journey where I can challenge myself constantly, and make a mark in the programming world!
+          <br>
+          if interested, Feel free to reach me at dsonar333@gmail.com</p>
+        
+          
+        <!-- <p>
+          
+          Detail-oriented Software Developer with professional experience in Backend Development, Machine Learning, Computer Vision. I am adept in Python, Django, Flask, SQL, Machine Learning, Computer Vision.           
+        </p> -->
+        <!-- <p>
+          Looking for an opportunity to work in a challenging position combining my skills in Web Development, which provides professional development, interesting experiences and personal growth.
+        </p> -->
+        <!-- <p>
+          Another Paragraph
+        </p>  -->
+        <!-- <p>
+        <strong>Current Focus</strong>:&nbsp;<a aria-label="Navigate to the Inclusive Design Patterns homepage"
+          href="https://www.smashingmagazine.com/inclusive-design-patterns/">Accessibility</a>&nbsp;//&nbsp;<a
+          aria-label="Navigate to the Full Stack React homepage"
+          href="https://www.fullstackreact.com/">React</a>&nbsp;//&nbsp;<a
+          aria-label='Navigate to the article "Scalable CSS"'
+          href="https://mrmrs.github.io/writing/2016/03/24/scalable-css/">Design Systems</a>
+        </p> -->
+      </div>
+    </section>
 
-    <!-- End Testimonials Section -->
 
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
+    <!-- Third Section: Experience -->
+    <!-- Fifth Section: Skills -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="contact-mf">
-              <div id="contact" class="box-shadow-full">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        Send Message Us
-                      </h5>
-                    </div>
-                    <div>
-                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                            </div>
-                          </div>
-                          <div class="col-md-12 text-center my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                          </div>
-                          <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="title-box-2 pt-4 pt-md-0">
-                      <h5 class="title-left">
-                        Get in Touch
-                      </h5>
-                    </div>
-                    <div class="more-info">
-                      <p class="lead">
-                        
-                      </p>
-                      <ul class="list-ico">
-                        <li><span class="bi bi-geo-alt"></span>Malegaon.Nashik,Maharashtra</li>
-                        <li><span class="bi bi-phone"></span> +917498984328</li>
-                        <li><span class="bi bi-envelope"></span> dsonar333@gmail.com</li>
-                      </ul>
-                    </div>
-                    <div class="socials">
-                      <ul> <li><a href="https://www.linkedin.com/in/dharmesh-sonar" target=”_blank”><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
-                        <li><a href="https://github.com/DharmeshRS" target=”_blank”><span class="ico-circle"><i class="bi bi-github"></i></span></a></li>
-                        <li><a href= "mailto: dsonar333@gmail.com" target=”_blank”><span class="ico-circle"><i class="bi bi-envelope"></i></span></a></li>
-                      <li><a href="https://twitter.com/dharmesh_sonar" target=”_blank”><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
-                      <li><a href="Dharmesh Sonar.pdf" download><span class="ico-circle"><i class="bi bi-arrow-down-circle"></i></span></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+        <!-- Languages and Databases -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Frontend Technologies</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/html5-300x300.jpg" class="responsive-img" />HTML5
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/css3-300x300.jpg" class="responsive-img" />CSS3
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/javascript.png" class="responsive-img" />JAVASCRIPT
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"  style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)" class="responsive-img" />REACT
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"  style="filter: invert(-400%) sepia(200%) saturate(500%) hue-rotate(169deg) brightness(109%) contrast(97%)" class="responsive-img" />REACT
+              </div>
+                           
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Backend Technologies</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" class="responsive-img" />NodeJS
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" class="responsive-img" />Express
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Python
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/django-logo.webp" class="responsive-img" />Django
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section><!-- End Contact Section -->
 
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="copyright-box">
-            <!-- <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p> -->
-            <div class="credits">
+        <!-- Frameworks -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Databases</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/kisspng-database-logo-brand-product-design-computer-mongodb-5b6d9c941dafa2.5542815515339101641216.png" class="responsive-img" />MongoDB
+              </div>
              
+            
             </div>
           </div>
         </div>
+
+        <!-- Other -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Other</h4>
+            <div class="row text-center">
+
+
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/git.png" class="responsive-img" />Git
+              </div>
+              <!-- <div class="col s4 m2">
+                <img alt="" src="/assets/img/aws.png" class="responsive-img" />AWS
+              </div> -->
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/heroku.png" class="responsive-img" />Heroku
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        </div> 
+
       </div>
-    </div>
-  </footer><!-- End  Footer -->
+    </section>
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- Fourth Section: Projects -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <div class="row">
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="kohl clone" src="/assets/img/kohls.png"  style="height: 100%; width: 100%"  class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Kohl's Clone<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  An E-commerce Website for buying products.
+                </p>
+               
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>
+                    <!-- <b>Tools:</b> Django, HTML, CSS, Bootstrap, SQLite, AWS S3, Heroku</li> -->
+                    <p class="subtitle-a">
+                      <a href="#" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
+                        <a href="#" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" /> </a>
+                         <a href="#" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a></stack>
+                  </p>
+                    </li>
+                    <li> Built the Homepage with backend functionalities.</li>
+              
+                    <li> Integrated product page with multiple filters.</li>
+                     a cart page with remove from cart
+                   functionality.</li>
+                </ul>
+                <div class="card-action">
+                      <div class="social">
+                        <a href="https://vigorous-carson-ae67ee.netlify.app/" target="_blank">
+                          <button class="icon-btn linkedin">
+                            <i class="fa fa fa-external-link"></i>
+                          </button>
+                        </a>
+                        <a href="https://github.com/DharmeshRS/kohls_Clone" target="_blank">
+                          <button class="icon-btn github">
+                            <i class="fa fa-github"></i>
+                          </button>
+                        </a>
+                      
+                        </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="quiz app" src="/assets/img/coursera.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Coursera Clone<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  We Easily Learn new technologies of trending Domains.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <p class="subtitle-a">
+                    <span>Tech Stack :</span>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
+                    <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40" style="margin: -5%;"/> </a> 
+                    <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> 
+                           </p>
+                            <li>Developed the home and course list page</li>
+                           <li>Dynamic searching in search bar.</li>
+                           <li>Connectivity with MongoDB Atlas.</li>
+                         
+                           
+
+                </ul>
+                <div class="card-action">
+                  <div class="social">
+                    <a href="https://happy-albattani-fcfa76.netlify.app/" target="_blank">
+                      <button class="icon-btn linkedin">
+                        <i class="fa fa fa-external-link"></i>
+                      </button>
+                    </a>
+                    <a href="https://github.com/DharmeshRS/Coursera_Clone" target="_blank">
+                      <button class="icon-btn github">
+                        <i class="fa fa-github"></i>
+                      </button>
+                    </a>
+                  
+                    </div>
+            </div>
+              </div>
+            </div>
+          </div>
+
+      
+      
+
+        
+
+          <!-- ************* -->
+        </div>
+      </div>
+    </section>
+
+  
+
+ 
+
+    <!-- Eight Section: Contact -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+        <p>
+          <a aria-label="Call Dharmesh" data-position="top" data-tooltip="Call Dharmesh"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
+              aria-label="Call Dharmesh">+917498984328</a></a>
+        </p>
+        <p>
+          <a aria-label="Email Dharmesh" href="mailto:dsonar333@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Dharmesh" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Dharmesh" href="mailto:dsonar333@gmail.com"
+              class="hoverline">dsonar333@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View Dharmesh on GitHub" href="http://github.com/DharmeshRS" target="_blank"
+            data-position="top" data-tooltip="View Dharmesh on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="Dharmesh on Github" href="http://github.com/DharmeshRS" class="hoverline"
+              target="_blank">github.com/DharmeshRS</a></a>
+        </p>
+        <p>
+          <a aria-label="View Dharmesh on LinkedIn" href="http://linkedin.com/in/dharmesh-sonar" target="_blank"
+            data-position="top" data-tooltip="View Dharmesh on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Dharmesh on LinkedIn" href="http://linkedin.com/in/dharmesh-sonar"
+              class="hoverline" target="_blank">linkedin.com/in/dharmesh-sonar</a></a>
+        </p>
+      </div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- typed.js -->
   <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- <script src="http://www.jsdelivr.com/#!particles.js"></script> -->
+  <script type="text/javascript" src="particles.js"></script>
+ 
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Full Stack Web Developer"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
 
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+    })
+  </script>
 </body>
 
 </html>
