@@ -71,6 +71,12 @@
 .phone:hover {
   background-color: #0077b5;
 }
+.resume {
+  color: rgb(48, 47, 47);
+}
+.resume:hover {
+  background-color: #00eeff;
+}
 .icon-btn:hover {
   transform: scale(1.10);
   color: #FFFFFF;
@@ -327,7 +333,7 @@ h3 {
 /* Original */
 
 #intro.section {
-  background: url(../../assets/img/white-ai-wallpaper.jpg) no-repeat top center/cover; 
+  /* background: url(../../assets/img/white-ai-wallpaper.jpg) no-repeat top center/cover;  */
   position: relative;
 }
 
